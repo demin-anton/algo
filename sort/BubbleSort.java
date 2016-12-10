@@ -23,9 +23,7 @@ public class BubbleSort {
         }
         ////////////
         long endTime = System.currentTimeMillis();
-        System.out.println(arr);
-        System.out.println("BubbleSort end...");
-        System.out.println("BubbleSort work " + (endTime - startTime) + " miliseconds");
+        System.out.println("BubbleSort end... it work " + (endTime - startTime) + " miliseconds");
         return arr;
     }
 }
