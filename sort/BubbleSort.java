@@ -3,6 +3,7 @@ package ademin.algo.sort;
 import java.util.ArrayList;
 
 /**
+ * Сортировка пузырьком
  * Created by Anton on 10.12.2016.
  */
 public class BubbleSort {
