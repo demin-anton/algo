@@ -2,6 +2,7 @@ package ademin.algo;
 
 import ademin.algo.sort.BubbleSort;
 import ademin.algo.sort.InsertionSort;
+import ademin.algo.sort.MergeSort;
 import ademin.algo.sort.SelectionSort;
 
 import java.util.ArrayList;
@@ -15,6 +16,10 @@ public class TestAlgs {
         System.out.println("Array:");
         ArrayList<Integer> arr = MyArr.getArr(20);
         System.out.println(arr);
+        // MergeSort
+        System.out.println("");
+        ArrayList<Integer> arrMerge = MergeSort.run(arr);
+        System.out.println(arrMerge);
         // InsertionSort
         System.out.println("");
         ArrayList<Integer> arrInsertion = InsertionSort.run(arr);
