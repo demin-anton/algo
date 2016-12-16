@@ -6,15 +6,22 @@ import java.util.ArrayList;
  * Created by Anton on 10.12.2016.
  */
 public class MyArr {
-    public static ArrayList<Integer> getArr(int len) {
+    public static int[] getArr(int len) {
         return getArr(len, 1000);
     }
 
-    public static ArrayList<Integer> getArr(int len, int maxVal) {
-        ArrayList<Integer> arr = new ArrayList<Integer>();
+    public static int[] getArr(int len, int maxVal) {
+        int[] arr = new int[len];
         for (int i = 0; i < len; i++) {
-            arr.add((int) (Math.random() * maxVal));
+            arr[i] = ((int) (Math.random() * maxVal));
         }
         return arr;
+    }
+
+    public static void print(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println("");
     }
 }
