@@ -1,20 +1,23 @@
 package ademin.algo.sort;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Сортировка слиянием
  * Created by Anton on 14.12.2016.
  */
 public class MergeSort {
-    public static ArrayList<Integer> run(ArrayList<Integer> arrParam) {
+    public static int[] run(int[] arrParam) {
         long startTime = System.currentTimeMillis();
         System.out.println("MergeSort start...");
         ////////////
-        ArrayList<Integer> arr = (ArrayList<Integer>) arrParam.clone();
+        int iter = 0;
+        int[] arr = arrParam.clone();
         ////////////
         long endTime = System.currentTimeMillis();
-        System.out.println("MergeSort end... it work " + (endTime - startTime) + " miliseconds");
+        System.out.println("MergeSort end... it work " + (endTime - startTime) + " miliseconds; " + iter + " iterations;");
         return arr;
     }
 }
