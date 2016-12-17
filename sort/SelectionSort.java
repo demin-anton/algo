@@ -11,7 +11,7 @@ public class SelectionSort {
         long startTime = System.currentTimeMillis();
         System.out.println("SelectionSort start...");
         ////////////
-        int iter = 0;
+        long iter = 0;
         int[] arr = arrParam.clone();
         int min = Integer.MAX_VALUE;
         int index = 0;
