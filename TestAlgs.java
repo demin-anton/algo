@@ -14,23 +14,23 @@ public class TestAlgs {
     public static void main(String[] args) {
         //
         System.out.println("Array:");
-        int arr[] = MyArr.getArr(20);
-        MyArr.print(arr);
+        int arr[] = MyArr.getArr(200000);
+        //MyArr.print(arr);
         // MergeSort
         System.out.println("");
         int[] arrMerge = MergeSort.run(arr);
-        MyArr.print(arrMerge);
+        //MyArr.print(arrMerge);
         // InsertionSort
         System.out.println("");
         int[] arrInsertion = InsertionSort.run(arr);
-        MyArr.print(arrInsertion);
+        //MyArr.print(arrInsertion);
         // SelectionSort
         System.out.println("");
         int[] arrSelection = SelectionSort.run(arr);
-        MyArr.print(arrSelection);
+        //MyArr.print(arrSelection);
         // BubbleSort
         System.out.println("");
         int[] arrBubble = BubbleSort.run(arr);
-        MyArr.print(arrBubble);
+        //MyArr.print(arrBubble);
     }
 }
