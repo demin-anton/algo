@@ -11,7 +11,7 @@ public class BubbleSort {
         long startTime = System.currentTimeMillis();
         System.out.println("BubbleSort start...");
         ////////////
-        int iter = 0;
+        long iter = 0;
         int[] arr = arrParam.clone();
         int tmp;
         for (int i = 0; i < arr.length - 1; i++) {
