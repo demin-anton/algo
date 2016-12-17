@@ -12,7 +12,7 @@ public class InsertionSort {
         System.out.println("InsertionSort start...");
         ////////////
         int[] arr = arrParam.clone();
-        int iter = 0;
+        long iter = 0;
         int tmp;
         int j;
         for (int i = 1; i < arr.length; i++) {
