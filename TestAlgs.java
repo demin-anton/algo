@@ -8,7 +8,7 @@ import ademin.algo.sort.SelectionSort;
 import java.util.ArrayList;
 
 /**
- * Created by ADemin on 12.12.2016.
+ * Created by ADemin on 12.12.2016.241234123ваы
  */
 public class TestAlgs {
     public static void main(String[] args) {

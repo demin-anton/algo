@@ -3,7 +3,7 @@ package ademin.algo;
 import java.util.ArrayList;
 
 /**
- * Created by Anton on 10.12.2016.
+ * Created by Anton on 10.12.2016.123121232413
  */
 public class MyArr {
     public static int[] getArr(int len) {
