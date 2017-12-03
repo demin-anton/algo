@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 /**
  * Created by Anton on 10.12.2016.123121232413
+ 1212313
+ 3243243
+ 23424
  */
 public class MyArr {
     public static int[] getArr(int len) {
